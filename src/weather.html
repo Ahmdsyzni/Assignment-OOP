@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>MG App</title>
+      <!-- Google Fonts -->
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet"
+      />
+      <!-- Stylesheet -->
+      <link rel="stylesheet" href="weather.css" />
+    </head>
+    <body>
+    <button class="buttonback"><a href="index.html">Back</a></button>
+    <button class="buttonback"><a href="weather1.html">Diary</a></button>
+
+    <div class="container">
+      <div class="search-container">
+        <h2>Enter Specified Name of Location</h2>
+        <br>
+        <input type="text" name="" id="city" placeholder="Besut">
+        <button id="search" onclick="display()">Search</button></input>
+      </div>
+      <br><br>
+
+      <h2 id="link">Status location:</h2>
+      <br>
+      <h2 id="tempe">Temperature of location:</h2>
+      <br>
+      <h2 id="pre">The pressure:</h2>
+      <br>
+      <h2 id="wind">Wind Speed:</h2>
+      <br>
+      <h2 id="humi">The humidity of location:</h2>
+    </div>
+
+
+      <!-- Script -->
+      <script src="weather.js"></script>
+  </body>
+</html>

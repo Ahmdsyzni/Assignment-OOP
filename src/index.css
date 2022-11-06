@@ -1,0 +1,35 @@
+h1{
+  text-align: center;
+  margin-top: 5.8em;
+  color: #161620;
+}
+h4 {
+  text-align: center;
+  color: #161620;
+}
+
+label{
+  color: #060608;
+}
+
+.mainWrapper{
+  margin: 25px;
+}
+
+body {
+  background-image: url('https://wallpapercave.com/wp/wp2158805.jpg');
+  background-size: cover;
+}
+
+.container {
+  background-color: #f3c8c0;
+  font-size: 16px;
+  padding: 3em 2.8em;
+  width: 90vw;
+  max-width: 35em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 0.6em;
+}
