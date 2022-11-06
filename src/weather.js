@@ -64,5 +64,5 @@ function display(){
   document.getElementById(`wind`).innerHTML=("Wind Speed: " + data.wind.speed),
   document.getElementById(`humi`).innerHTML=("The humidity of location: " + data.main.humidity)
 })
-
+.catch(err => alert("Put another place!"));
 }
